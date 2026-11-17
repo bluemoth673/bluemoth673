@@ -1,152 +1,79 @@
-<!-- ═══════════════════════════  HEADER  ═══════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6a00f4,100:00e5ff&height=220&section=header&text=Abdulrahman%20Tamer&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=Cybersecurity%20%E2%80%A2%20Detection%20Engineering%20%E2%80%A2%20AI&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="header"/>
+  <img src="./specimen.svg" width="100%" alt="Specimen Nº 673 — Blue Moth (Abdulrahman tamerensis). Habitat: terminals, after 2 a.m. Attracted to: logs, packets, anomalies. Status: active, leading ARES."/>
 </p>
 
-<p align="center">
-  <a href="https://github.com/bluemoth673">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=00E5FF&center=true&vCenter=true&width=640&lines=%24+whoami+%E2%86%92+bluemoth673;Building+anomaly+detection+for+UAV+telemetry;Red+team+tools+%E2%9A%94+Blue+team+detectors;Malware+analysis+%2B+SOC+intelligence;Leading+a+6-person+graduation+project" alt="typing"/>
-  </a>
-</p>
+<p align="center"><i>
+Found circling the brightest screen in the room.<br/>
+Quiet, persistent, and very hard to shake once it finds an anomaly.
+</i></p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=bluemoth673&style=for-the-badge&color=6a00f4&label=PROFILE+VIEWS" alt="views"/>
-  <img src="https://img.shields.io/github/followers/bluemoth673?style=for-the-badge&color=00e5ff&labelColor=0d1117&logo=github" alt="followers"/>
-  <img src="https://img.shields.io/badge/STATUS-BUILDING%20ARES-6a00f4?style=for-the-badge&labelColor=0d1117" alt="status"/>
-</p>
+<br/>
 
----
+### ⁂ field notes
 
-## `> cat about_me.py`
-
-```python
-class Moth:
-    name     = "Abdulrahman Tamer"
-    handle   = "bluemoth673"
-    school   = "AAST — Cybersecurity"
-    role     = "Team lead · ARES graduation project"
-
-    focus    = ["detection engineering", "malware analysis",
-                "offensive / defensive tooling", "AI for security"]
-    now      = "Detecting anomalies in simulated UAV telemetry (ArduPilot + MAVLink)"
-    daily_os = "Arch Linux (Hyprland)"
-
-    def motto(self):
-        return "Break it to understand it. Detect it to defend it."
+```
+observer ........ bluemoth673
+location ........ AAST, cybersecurity
+activity ........ nocturnal; most active between commits
+diet ............ python · java · bash · docker · kali · metasploit · mavlink
+behaviour ....... breaks things to learn how they work,
+                  then builds the thing that would have caught it
 ```
 
----
+<br/>
 
-## `> ls ./projects --featured`
+### ⁂ the collection
 
 <table>
-<tr>
-<td width="50%" valign="top">
-
-### 🛰️ ARES — UAV Telemetry Defense
-`team lead` · `in progress` · `private`
-
-Reads MAVLink telemetry from a simulated ArduPilot UAV, detects anomalies like GPS position jumps, estimates the impact on the mission, and shows the evidence on a dashboard.
-
-`Python` `pymavlink` `ArduPilot SITL` `Folium`
-
-</td>
-<td width="50%" valign="top">
-
-### ⚔️ [Tools-For-attack-and-defend](https://github.com/bluemoth673/Tools-For-attack-and-defend)
-
-A Dockerized attacker vs. defender lab: an attacker container runs scans while a defender container detects and correlates them from shared logs.
-
-`Python` `Docker` `docker-compose`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧬 [AnalystBridge](https://github.com/bluemoth673/AnalystBridge)
-`contributor`
-
-Turns sandbox malware-behavior logs into an investigation workspace: graphs, timelines, MITRE ATT&CK mapping, IOC extraction, and risk scoring.
-
-`Python` `MITRE ATT&CK` `SQLite`
-
-</td>
-<td width="50%" valign="top">
-
-### 🔭 [Capstone-Recon-Detector](https://github.com/nagdy77/Capstone-Recon-Detector)
-`contributor`
-
-A multi-phase reconnaissance tool paired with a correlation-based detector, built for a Docker cybersecurity capstone lab.
-
-`Python` `Docker` `Recon`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧹 [python-csv-cleaner](https://github.com/bluemoth673/python-csv-cleaner)
-
-Cleans messy CSV files with only the standard library: trims whitespace, removes empty and duplicate rows, and reports missing values.
-
-`Python` `stdlib only`
-
-</td>
-<td width="50%" valign="top">
-
-### 🦁 [ZOO](https://github.com/bluemoth673/ZOO)
-
-A Java Swing desktop app for managing animals, visitors, and staff, with CRUD forms and file-based storage.
-
-`Java` `Swing` `OOP`
-
-</td>
-</tr>
+  <tr>
+    <td align="center" width="70"><sub>Nº</sub></td>
+    <td><sub>SPECIMEN</sub></td>
+    <td><sub>NOTES</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><code>01</code></td>
+    <td><b>ARES</b><br/><sub><i>under observation · private</i></sub></td>
+    <td>Graduation project; I lead a team of six. Reads MAVLink telemetry from a simulated ArduPilot drone, catches anomalies like GPS position jumps, and explains which part of the mission they put at risk.</td>
+  </tr>
+  <tr>
+    <td align="center"><code>02</code></td>
+    <td><a href="https://github.com/bluemoth673/Tools-For-attack-and-defend"><b>Attack &amp; Defend</b></a><br/><sub><i>Python · Docker</i></sub></td>
+    <td>Two containers in one cage: an attacker that scans, and a defender that detects and correlates it from shared logs.</td>
+  </tr>
+  <tr>
+    <td align="center"><code>03</code></td>
+    <td><a href="https://github.com/bluemoth673/AnalystBridge"><b>AnalystBridge</b></a><br/><sub><i>contributor</i></sub></td>
+    <td>Turns sandbox malware logs into an investigation workspace: graphs, timelines, MITRE ATT&amp;CK mapping, IOCs, risk scores.</td>
+  </tr>
+  <tr>
+    <td align="center"><code>04</code></td>
+    <td><a href="https://github.com/nagdy77/Capstone-Recon-Detector"><b>Recon Detector</b></a><br/><sub><i>contributor</i></sub></td>
+    <td>A multi-phase reconnaissance tool and the correlation-based detector built to catch it.</td>
+  </tr>
+  <tr>
+    <td align="center"><code>05</code></td>
+    <td><a href="https://github.com/bluemoth673/python-csv-cleaner"><b>CSV Cleaner</b></a><br/><sub><i>Python · stdlib</i></sub></td>
+    <td>Cleans messy CSV files and reports what it found, with no dependencies at all.</td>
+  </tr>
+  <tr>
+    <td align="center"><code>06</code></td>
+    <td><a href="https://github.com/bluemoth673/ZOO"><b>ZOO</b></a><br/><sub><i>Java · Swing</i></sub></td>
+    <td>The earliest specimen: a desktop app for keeping track of animals, visitors and staff.</td>
+  </tr>
 </table>
 
----
+<br/>
 
-## `> which --all tools`
+### ⁂ to report a sighting
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <br/>
-  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white"/>
-  <img src="https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MITRE_ATT%26CK-C8102E?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/ArduPilot_%2F_MAVLink-0B3D91?style=for-the-badge"/>
+<p>
+  <a href="https://www.linkedin.com/in/abdulrahman-tamer-747655314/">linkedin</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:boudytamer69@gmail.com">boudytamer69@gmail.com</a>
 </p>
 
----
-
-## `> git log --stats`
+<br/>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=bluemoth673&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=6a00f4" alt="stats"/>
-  <img height="170" src="https://streak-stats.demolab.com?user=bluemoth673&theme=tokyonight&hide_border=true&background=0d1117&ring=6a00f4&fire=00e5ff&currStreakLabel=00e5ff" alt="streak"/>
-</p>
-
-<p align="center">
-  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=bluemoth673&bg_color=0d1117&color=00e5ff&line=6a00f4&point=ffffff&area=true&area_color=6a00f4&hide_border=true" alt="activity"/>
-</p>
-
-<!-- Generated daily by .github/workflows/snake.yml -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bluemoth673/bluemoth673/output/snake-dark.svg"/>
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/bluemoth673/bluemoth673/output/snake.svg"/>
-  </picture>
-</p>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00e5ff,50:6a00f4,100:0d1117&height=120&section=footer" width="100%" alt="footer"/>
+  <img src="./lamp.svg" width="100%" alt="A small moth circling a hanging lamp."/>
 </p>
