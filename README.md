@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./specimen.svg" width="100%" alt="Abdulrahman Tamer (bluemoth673), cybersecurity student at AASTMT. Focus: web app security, security architecture, AI security. Now building ARES, an autonomous enterprise security platform."/>
+  <img src="./specimen.svg" width="100%" alt="Abdulrahman Tamer (bluemoth673), cybersecurity student at AASTMT. Focus: web app security, security architecture, AI security. Now leading ARES, a UAV defense project."/>
 </p>
 
 <p align="center"><i>
@@ -32,6 +32,10 @@ I break web apps to understand them, monitor systems to defend them, and write P
     <td><sub>SYSTEMS</sub></td>
     <td>Linux (daily driver) · command-line tooling · Docker</td>
   </tr>
+  <tr>
+    <td><sub>LEADERSHIP</sub></td>
+    <td>Team lead of a six-person graduation project: scope, task ownership, integration</td>
+  </tr>
 </table>
 
 <br/>
@@ -46,8 +50,8 @@ I break web apps to understand them, monitor systems to defend them, and write P
   </tr>
   <tr>
     <td align="center"><code>01</code></td>
-    <td><b>ARES</b><br/><sub><i>graduation project · team · in development</i></sub></td>
-    <td><b>Autonomous Resilient Enterprise Security.</b> An AI-powered platform that goes beyond SIEM and EDR to detect, understand and respond to threats autonomously: AI-powered XDR, a security knowledge graph, automated attack simulation, an AI SOC copilot and an enterprise digital twin. <br/><sub>Integrates with Microsoft Defender · CrowdStrike · Wazuh · Splunk</sub></td>
+    <td><b>ARES</b><br/><sub><i>team lead · in progress · private</i></sub></td>
+    <td>Anomaly detection for UAV telemetry. Reads MAVLink data from a simulated ArduPilot drone, detects attacks such as GPS position jumps, and explains which part of the mission is at risk. <br/><sub>Python · pymavlink · ArduPilot SITL · Folium</sub></td>
   </tr>
   <tr>
     <td align="center"><code>02</code></td>
